@@ -1,4 +1,25 @@
-﻿http://mrtextminer.wordpress.com/2008/03/03/a-practice-on-libsvm-example-in-debian-etch-using-java/
+﻿Article: 
+   http://ask.osify.com/qa/311
+
+- See in Java folder: learnLibSVM\libsvm-3.17\java
+- To try-out:
+
+D:\learnLibSVM\libsvm-3.17\java>batch-svm-train.bat
+.....*
+optimization finished, #iter = 5371
+nu = 0.6061503521187195
+obj = -1061.528918183956, rho = -0.49526608854956916
+nSV = 3053, nBSV = 722
+Total nSV = 3053
+Press any key to continue . . .
+
+D:\learnLibSVM\libsvm-3.17\java>batch-svm-predict.bat
+Accuracy = 66.925% (2677/4000) (classification)
+
+
+=======================
+Reference: 
+   http://mrtextminer.wordpress.com/2008/03/03/a-practice-on-libsvm-example-in-debian-etch-using-java/
 
 1) Download libsvm-2.84.tar.gz from the web address above.
 
@@ -24,18 +45,4 @@
 
 The output from step 7, is Accuracy = 66.925%, which is the same as described in the paper.
 
-====================
-Metrey:
-
-E:\DRIVE\metreysk\Dropbox\Projects\learnLibSVM\libsvm-3.17\java>batch-svm-train.bat
-.....*
-optimization finished, #iter = 5371
-nu = 0.6061503521187195
-obj = -1061.528918183956, rho = -0.49526608854956916
-nSV = 3053, nBSV = 722
-Total nSV = 3053
-Press any key to continue . . .
-
-E:\DRIVE\metreysk\Dropbox\Projects\learnLibSVM\libsvm-3.17\java>batch-svm-predict.bat
-Accuracy = 66.925% (2677/4000) (classification)
 
